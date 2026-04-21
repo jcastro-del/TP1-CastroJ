@@ -9,6 +9,7 @@ public class Principal {
         do {
             //menu de elecciones
             System.out.println("Elija una opcion");
+            System.out.println("(0) Salir");
             System.out.println("(1) Programa saludador");
             System.out.println("(2) Numero par");
             System.out.println("(3) Tabla de multiplicar");
@@ -23,7 +24,6 @@ public class Principal {
             System.out.println("(12) Arreglo unidimensional");
             System.out.println("(13) Nota de estudiantes");
             System.out.println("(14) Quitando ceros");
-            System.out.println("(0) Salir");
 
             opcion = scanner.nextInt();
             scanner.nextLine();

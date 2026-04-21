@@ -9,10 +9,11 @@ public class Ejercicio8 {
         int opcion; 
         
         do{
+            //creamos nuestro menu 
             System.out.println("elija una conversion");
+            System.out.println("(0) - Salir");
             System.out.println("(1) - Celsius a Fahrenheit");
             System.out.println("(2) - Fahrenheit a Celsius");
-            System.out.println("(0) - Salir");
 
             opcion = teclado.nextInt(); 
 
